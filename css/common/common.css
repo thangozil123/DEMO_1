@@ -1,0 +1,43 @@
+@import url(button.css);
+@import url(input.css);
+@import url(toastMessage.css);
+
+body{
+    font-size: 13px;
+    font-family: GoogleSans-Regular;
+    box-sizing: border-box ;
+}
+@font-face {
+    font-family: GoogleSans-Regular;
+    src: url(../../asset/font/GoogleSans-Regular.otf);
+}
+@font-face {
+    font-family: GoogleSans-Bold;
+    src: url(../../asset/font/GoogleSans-Bold.otf);
+}
+@font-face {
+    font-family: GoogleSans-Italic;
+    src: url(../../asset/font/GoogleSans-Italic.otf);
+}
+
+.text-bold{
+    font-family:GoogleSans-Bold ;
+}
+.text-italic{
+    font-family:GoogleSans-Italic ;
+}
+
+.m-row{
+    width: 100%;
+    display: flex;
+    margin-top: 4px;
+}
+
+label{
+    margin-top: 4px;
+    padding-bottom: 4px;
+}
+
+.icon{
+    background-repeat: no-repeat;
+}
